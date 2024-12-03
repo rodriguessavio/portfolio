@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:wght@200;300&family=Roboto:wght@300&display=swap');
+
 .navbar{
     background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.logo,
+.menu {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 1%;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 4.3rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 490;
 }

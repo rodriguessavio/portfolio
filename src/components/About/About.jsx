@@ -1,9 +1,12 @@
 import React from 'react';
+import profile from '../../assets/profile.svg';
+import styles from '../About/About.module.css';
 
 function About() {
   return (
-    <div>
-        <h1>Transformando ideias em código</h1>
+    <div className={styles.about}>
+        <img src={profile} alt="" className={styles.profileimg}/>
+        <p className={styles.title}>Transformando ideias em <span>código!</span></p>
         <p>
             Me chamo Sávio Rodrigues, sou aspirante a desenvolvedor backend. 
             Atualmente direciono meus estudos ao desenvolvimento web back-end com laravel, desenvolvendo aplicações performáticas e fluídas. Além de permanecer aprimorando meus conhecimentos 
