@@ -1,6 +1,10 @@
 import React from 'react';
 import profile from '../../assets/profile.svg';
 import styles from '../About/About.module.css';
+import js from '../../assets/icons/js.svg';
+import html from '../../assets/icons/html.svg';
+import css from '../../assets/icons/css.svg';
+import react from '../../assets/icons/react.svg';
 
 function About() {
   return (
@@ -14,13 +18,14 @@ function About() {
         </p>
         <a href="" className={styles.downloadcv}>Download CV</a>
 
-        <div>
+        <div className={styles.icon}>
             <h2>EXPERIÊNCIA COM</h2>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <div className={styles.icons_image}>
+              <img src={js} alt="" />
+              <img src={html} alt="" />
+              <img src={css} alt="" />
+              <img src={react} alt="" />
+            </div>
         </div>
     </div>
   )

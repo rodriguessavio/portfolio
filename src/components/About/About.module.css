@@ -52,3 +52,19 @@
     font-size: 1rem;
 }
 
+.icon {
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: #C5C5C5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icons_image {
+    display: flex;
+    gap: 5rem;
+}
+
+
