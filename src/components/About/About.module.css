@@ -18,6 +18,8 @@
     font-weight: bold;
     font-family: "Poppins", sans-serif;
     color: #fff;
+    width: 41.8rem;
+    text-align: center;
 }
 
 .title span {
@@ -25,3 +27,28 @@
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+
+.about_content {
+    font-family: "Poppins", sans-serif;
+    width: 42.4rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 2.4rem;
+    font-weight: normal;
+}
+
+.downloadcv {
+    margin: 0 auto;
+    margin-top: 3.3rem;
+    background-color: #fff;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
